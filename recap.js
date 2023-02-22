@@ -36,3 +36,7 @@ console.log(x, y, z);
 const num = [2, 4, 5, 6, 7];
 const [a, b, c] = num;
 console.log(a, b, c);
+
+const nums = [1, 2, 3, 4, 5];
+let output = nums.filter((n) => n % 2);
+console.log(output);
